@@ -27,10 +27,10 @@ int main()
     {
         cout << "\nInput question shift: ";
         cin >> shift;
-        currentQuestion = (currentQuestion + shift) % 12;
+        currentQuestion = (currentQuestion + shift) % 13;
 
         cout << questions[currentQuestion] << endl;
-        cin >> currentQuestion;
+        cin >> currentAnswer;
 
         if (currentAnswer == answers[currentQuestion])
         {
